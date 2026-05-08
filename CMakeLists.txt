@@ -7,5 +7,6 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WheelState.msg"
+  "msg/JointAngle.msg"
   DEPENDENCIES std_msgs
 )
